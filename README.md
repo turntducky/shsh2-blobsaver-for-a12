@@ -37,11 +37,13 @@ unc0ver:
 ~ Run the following commands. If any of these commands fail, run them with sudo (on Linux and macOS).
 * ideviceinfo - Look for "UniqueDeviceID" in the output. Text after ": " is your UDID. You may need to trust your PC on your iPhone for this to work. If you don't know your ECID it's the "UniqueChipID", your model is "ProductType".
 * ideviceenterrecovery UDID - Replace UDID with your UDID from above.
+
 # Important install https://github.com/libimobiledevice/libirecovery… then cd into the folder in terminal and run these commands:
 # ./autogen.sh
 # make
 # sudo make install
 # After that you will be able to run the command no problem
+
 * irecovery -q - Look for "NONC" in the input, this is your APNonce (the text after "NONC: "). You can use irecovery -q | grep NONC on GNU/Linux and macOS.
 * irecovery -n - This will reboot you back to the non-recovery mode.
 5. Saving your blobs.
