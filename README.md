@@ -45,7 +45,7 @@ unc0ver:
 * irecovery -q - Look for "NONC" in the input, this is your APNonce (the text after "NONC: "). You can use irecovery -q | grep NONC on GNU/Linux and macOS.
 * irecovery -n - This will reboot you back to the non-recovery mode.
 5. Saving your blobs.
-~ Save your generated nonce, ECID and model in a file somewhere, it shouldn't change in the future so you only need to do the above steps once.
+Save your generated nonce, ECID and model in a file somewhere, it shouldn't change in the future so you only need to do the above steps once.
 ~ Go to https://tsssaver.1conan.com/ with a browser of your choice.
 ~ Change the drop down field that says "Hex (iTunes)" to "Dec (UDID Calculator/ideviceinfo)", input your ECID in the "Type ECID Here..." field, select your model in "Identifier:" and make sure it matches the ProductType from above.
 ~ Check the "Manually specify an apnonce (ADVANCED USERS ONLY)" checkbox, and type your APNonce from above (NONC) here.
